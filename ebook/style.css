@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Cardo', serif;
+    background-color: #1B3764;
+   /*  font-family: 'Inter', sans-serif; */
+}
+nav{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    background-color: #1B3764;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 1.5vw;
+
+}
+nav #logo{
+    align-items: center;
+    display: flex;
+    gap: 25px;
+    font-family: 'inter' sans-serif;
+    font-size: 2.5vw;
+    font-weight: 700;
+    text-decoration: none;
+    color: #ffffff;
+    align-items: center;
+}
+.navitems{
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+.navitems a{
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 1vw;
+    font-weight: 500;
+    font-family: 'Inter', sans-serif;
+
+}
+#navbtn{
+    /* border-radius: 1vw; */
+    padding: 1vw 1.5vw;
+    font-size: 1vw;
+    background-color: yellow;
+}
+#hero{
+    display: flex;
+}
+.textblock h1{
+    padding-top: 14vw;
+    padding-left: 18vw;
+    color:bisque;
+    font-size: 3vw;
+    font-weight: 900;
+    display: flex;
+}
+.textblock p{
+    color: blanchedalmond;
+    font-size: 1vw;
+    font-weight: 300;
+    padding-left: 18vw;
+    padding-top: 2vw;
+}
+.btnsection button{
+       /* border-radius: 1vw; */
+       margin-top: 1vw;
+       margin-left: 18vw;
+       padding: 1vw 1.5vw;
+       font-size: 1vw;
+       background-color: yellow;
+}
+.btnsection a{
+    text-decoration: none;
+    color: bisque;
+    font-size: 1vw;
+    padding-left: 1.5vw;
+}
+.imageblock .img{
+    height: 84vh;
+    width: 37vw;
+    padding-top: 4vw;
+    padding-left: 10vw;
+}
+
